@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GhostChat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="chat-app">
+    <h1 class="title">GhostChat</h1>
+    <div class="chat-window" id="chatWindow"></div>
+    <div class="input-area">
+      <input type="text" id="messageInput" placeholder="Type a message..." autocomplete="off">
+      <button id="sendButton">Send</button>
+    </div>
+  </div>
+
+  <footer style="text-align: center; padding: 10px; background-color: #333; color: #fff; position: fixed; width: 100%; bottom: 0;">
+    © 2024 Amit Vikram. All rights reserved.
+  </footer>
+  
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

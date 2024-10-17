@@ -1,0 +1,36 @@
+# Node.js related files/folders
+node_modules/
+npm-debug.log
+
+# SSL Certificates and Keys (if self-signed certificates are used)
+key.pem
+cert.pem
+csr.pem
+
+# Environment variables (if you store secrets in .env)
+.env
+
+# Log files
+logs/
+*.log
+npm-debug.log*
+
+# Ignore main server files (add files you want to hide)
+server.js
+
+# Ignore deployment or build files (if any)
+dist/
+build/
+
+# Ignore IDE and editor-specific settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Git configuration files
+.gitconfig
